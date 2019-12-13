@@ -18,6 +18,7 @@ cmake .. -G "Xcode" // 如果报错就先 选择xcode sudo xcode-select --switch
 # win 
 ```
 https://raw.githubusercontent.com/transcode-open/apt-cyg/master/apt-cyg
+https://www.pconlife.com/download/otherfile/179150/aa26678ca78b915765ece4563214cf2f/
 cygwin 一些命令
 cygcheck make
 安装工具
