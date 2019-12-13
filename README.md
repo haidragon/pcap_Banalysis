@@ -7,3 +7,12 @@
 # winpcap编译与使用
 # libpcap编译与使用
 # wireshark编译与调试
+* mac
+```
+https://www.wireshark.org/lists/wireshark-dev/201603/msg00057.html
+mkdir build
+cd build 
+cmake ..
+make 
+cmake .. -G "Xcode" //sudo xcode-select --switch /Applications/Xcode.app/
+```
