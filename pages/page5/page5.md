@@ -14,3 +14,11 @@ cmake .. -G "Xcode" // 如果报错就先 选择xcode sudo xcode-select --switch
 ![avatar](https://github.com/haidragon/pcap_Banalysis/blob/master/pages/page5/images/1.png)
 ![avatar](https://github.com/haidragon/pcap_Banalysis/blob/master/pages/page5/images/2.png)
 ![avatar](https://github.com/haidragon/pcap_Banalysis/blob/master/pages/page5/images/3.jpg)
+
+# win 
+```
+https://raw.githubusercontent.com/transcode-open/apt-cyg/master/apt-cyg
+cygwin 一些命令
+cygcheck make
+安装工具
+```
