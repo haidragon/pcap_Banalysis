@@ -37,8 +37,8 @@ mkdir build
 cd build
 cmake ..
 make 
-
 ```
+![avatar](https://github.com/haidragon/pcap_Banalysis/blob/master/pages/page5/images/linuxbuild.png)
 # win 
 * https://raw.githubusercontent.com/transcode-open/apt-cyg/master/apt-cyg
 * https://www.pconlife.com/download/otherfile/179150/aa26678ca78b915765ece4563214cf2f/
