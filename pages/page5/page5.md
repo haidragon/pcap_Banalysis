@@ -27,6 +27,11 @@ bison
 wget http://download.qt.io/archive/qt/5.12/5.12.0/qt-opensource-linux-x64-5.12.0.run
 chmod +x qt-opensource-linux-x64-5.12.0.run
 ./qt-opensource-linux-x64-5.12.0.run
+qtbase5-dev 
+qtmultimedia5-dev 
+libpulse-dev 
+libhamlib-dev
+libqt5svg5-dev
 编译
 mkdir build
 cd build
