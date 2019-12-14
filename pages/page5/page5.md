@@ -1,5 +1,5 @@
 # wireshark编译与调试
-*  下载wireshark源码 
+* mac(10.15.2) 
 
  输入命令：
 ```
