@@ -6,5 +6,5 @@
 * https://github.com/haidragon/pcapng_packet_parser/blob/master/pcapng_dump.c
 # winpcap编译与使用
 # libpcap编译与使用
-# wireshark编译与调试
-* mac https://github.com/haidragon/pcap_Banalysis/blob/master/pages/page5/page5.md
+# wireshark编译与调试 win mac linux
+* https://github.com/haidragon/pcap_Banalysis/blob/master/pages/page5/page5.md
