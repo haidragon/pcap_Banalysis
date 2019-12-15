@@ -40,7 +40,7 @@ make
 ```
 ![avatar](https://github.com/haidragon/pcap_Banalysis/blob/master/pages/page5/images/linuxbuild.png)
 # win(64位)失败 一直卡在cygwin 少glib2 不知道要哪个glib2
-* apt工具用这个 git上的文件乱码了
+* apt工具用下面这个 git上的文件乱码了
 * https://raw.githubusercontent.com/transcode-open/apt-cyg/master/apt-cyg
 * 这个地方可以下载缺少的dll 但是不知道是否带马
 * https://www.pconlife.com/download/otherfile/179150/aa26678ca78b915765ece4563214cf2f/
@@ -54,6 +54,7 @@ cygcheck make 用于检查make依赖哪些库
 libffi-devel (中间有要安装这个 忘记哪个了 先放这里)
 ```
 ![avatar](https://github.com/haidragon/pcap_Banalysis/blob/master/pages/page5/images/4.png)
+* 下面这个图片PLATFORM要修改成win64
 ![avatar](https://github.com/haidragon/pcap_Banalysis/blob/master/pages/page5/images/5.png)
 # win(32位）qt环境变量一定要设置成32的不然报模块计算机类型与目标计算机类型冲突
 ```
@@ -61,7 +62,7 @@ mkdir vs_build_32
 cd vs_build_32
 cmake .. -G "Visual Studio 14 2015"
 ```
-设置的环境变量有：
+设置的环境变量有：（为什么要用vs2017 因为我这qt目录没有看到2015 32位版）
 ```
 QT5_BASE_DIR = C:\Qt\Qt5.13.0\5.13.0\msvc2017
 WIRESHARK_LIB_DIR=c:\wireshark-win64-libs-3.2(名称要看脚本 参考：https://blog.csdn.net/dreamnow1201/article/details/80087174)
