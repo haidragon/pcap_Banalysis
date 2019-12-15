@@ -53,3 +53,11 @@ cygcheck make 用于检查make依赖哪些库
 ![avatar](https://github.com/haidragon/pcap_Banalysis/blob/master/pages/page5/images/4.png)
 https://blog.csdn.net/dreamnow1201/article/details/80200785
 ![avatar](https://github.com/haidragon/pcap_Banalysis/blob/master/pages/page5/images/5.png)
+
+用Chocolatey
+```
+//iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+这里用cmd(root）才安装成功
+@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
+
+```
