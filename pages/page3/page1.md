@@ -12,6 +12,13 @@
 C:\Users\haidragon\Desktop\winpcap-WINPCAP_4_1_0_2980\winpcap-WINPCAP_4_1_0_2980\packetNtx\Dll\Project
 ```
 * ![avatar](https://github.com/haidragon/pcap_Banalysis/blob/master/pages/page3/images/packet.png)
-
-
+* wpcap.dll编译
+* 进入C:\Users\haidragon\Desktop\winpcap-WINPCAP_4_1_0_2980\winpcap-WINPCAP_4_1_0_2980\wpcap\PRJ
+* 这里不要用git上的源码，少很多文件用这里的：
+* 下载地址：https://www.winpcap.org/devel.htm
+* 修改下packet.lib查找路径
+* ![avatar](https://github.com/haidragon/pcap_Banalysis/blob/master/pages/page3/images/packet.png)
+然后继续编译
+* ![avatar](https://github.com/haidragon/pcap_Banalysis/blob/master/pages/page3/images/wpcap.png)
+* 可以参考： https://blog.csdn.net/fengsuiyunqing/article/details/98076555
 
