@@ -42,8 +42,10 @@ make
 # win(64位)失败 一直卡在cygwin 少glib2 不知道要哪个glib2
 * apt工具用这个 git上的文件乱码了
 * https://raw.githubusercontent.com/transcode-open/apt-cyg/master/apt-cyg
-* 其它参考：
+* 这个地方可以下载缺少的dll 但是不知道是否带马
 * https://www.pconlife.com/download/otherfile/179150/aa26678ca78b915765ece4563214cf2f/
+* 其它参考：
+* https://www.wireshark.org/lists/wireshark-dev/201603/msg00057.html
 * https://blog.csdn.net/dreamnow1201/article/details/80200785
 ```
 用cygwin编译
@@ -69,7 +71,9 @@ PLATFORM=win32
 ![avatar](https://github.com/haidragon/pcap_Banalysis/blob/master/pages/page5/images/vs32.png)
 ![avatar](https://github.com/haidragon/pcap_Banalysis/blob/master/pages/page5/images/vs32debug.png)
 # Chocolatey 方式编译
-如果用Chocolatey 参考：https://blog.csdn.net/weixin_40411459/article/details/94742456
+* 如果用Chocolatey 参考：
+* https://blog.csdn.net/weixin_40411459/article/details/94742456
+* https://www.wireshark.org/docs/wsdg_html_chunked/ChSetupWin32.html#ChSetupGit
 ```
 //iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 这里用cmd(root）才安装成功
