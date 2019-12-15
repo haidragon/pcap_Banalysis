@@ -7,7 +7,7 @@
 * 这里编译的64位 执行 CompileDriver.bat，如图1所示。
 * ![avatar](https://github.com/haidragon/pcap_Banalysis/blob/master/pages/page3/images/1.png)
 * packet.dll编译
-* 安装vs2005，打开目录地址：
+* 安装vs2005(高版本要修改地方非常多)，打开目录地址：
 ```
 C:\Users\haidragon\Desktop\winpcap-WINPCAP_4_1_0_2980\winpcap-WINPCAP_4_1_0_2980\packetNtx\Dll\Project
 ```
