@@ -237,7 +237,11 @@ func test_dump_packet_all_DNS(){
 			//fmt.Printf("From %s to %s\n", ip.SrcIP, ip.DstIP)
 			//fmt.Println("Protocol: ", ip.Protocol)
 			//fmt.Println()
-			fmt.Println(dns.QDCount)
+			fmt.Println("dnsID:", dns.ID)
+			fmt.Println("answers:", dns.ANCount)
+			fmt.Println("是否是回应包：", dns.QR) //false查询、true回应
+			fmt.Println("Queries:", string(dns.Questions[0].Name))
+
 			//fmt.Println(dns.DstIP)
 		}
 	}
