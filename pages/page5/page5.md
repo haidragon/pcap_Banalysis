@@ -40,7 +40,8 @@ make
 ```
 ![avatar](https://github.com/haidragon/pcap_Banalysis/blob/master/pages/page5/images/linuxbuild.png)
 # win(64位)失败 一直卡在cygwin 少glib2 不知道要哪个glib2
-* apt工具用下面这个 git上的文件乱码了
+* apt工具下载建立不用复制粘贴，可以直接下载
+* https://github.com/transcode-open/apt-cyg
 * https://raw.githubusercontent.com/transcode-open/apt-cyg/master/apt-cyg
 * 这个地方可以下载缺少的dll 但是不知道是否带马
 * https://www.pconlife.com/download/otherfile/179150/aa26678ca78b915765ece4563214cf2f/
